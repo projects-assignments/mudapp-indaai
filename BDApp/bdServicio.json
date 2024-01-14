@@ -1,0 +1,22 @@
+[{
+    "_id":"4",
+    "Fecha":"03/11/22",
+    "Estado":"Enviado",
+    "IdTransportista":"7",
+    "idUsuario":"1",
+    "DireccionSalida/Destino":"C/ElmStreet to Rmb/Catalunya"
+},{
+    "_id":"5",
+    "Fecha":"04/11/22",
+    "Estado":"En Camino",
+    "IdTransportista":"8",
+    "idUsuario":"2",
+    "DireccionSalida/Destino":"C/Valdeku to Rmb/Catalunya"
+},{
+    "_id":"6",
+    "Fecha":"05/11/22",
+    "Estado":"Enviado",
+    "IdTransportista":"9",
+    "idUsuario":"3",
+    "DireccionSalida/Destino":"C/ElmStreet to C/Valdeku"
+}]

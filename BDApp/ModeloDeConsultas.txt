@@ -1,0 +1,48 @@
+Obtener información de un usuario por DNI:
+
+
+        db.usuarios.find({ dni: "12345678" })
+        Obtener información de vehículos por tipo (Camion, Moto, Coche):
+
+        db.vehiculos.find({ tipo: "Camion" })
+
+
+Crear un nuevo paquete para transporte:
+
+
+        db.paquetes.insertOne({
+            contenido: "Artículos varios",
+            destino: "Dirección de destino",
+            peso: 5.2
+        })
+
+
+Asignar un paquete a un usuario:
+
+
+        db.usuarios.updateOne(
+            { _id: ObjectId("id_del_usuario") },
+            { $addToSet: { paquetes: ObjectId("id_del_paquete") } }
+        )
+
+
+Obtener evaluaciones de un transportista:
+
+
+        db.evaluaciones.find({ transportista_id: ObjectId("id_del_transportista") })
+
+        
+Obtener todos los paquetes asignados a un usuario:
+
+
+        db.paquetes.find({ usuario_id: ObjectId("id_del_usuario") })
+
+
+Realizar una evaluación para un servicio:
+
+
+        db.evaluaciones.insertOne({
+            servicio_id: ObjectId("id_del_servicio"),
+            calificacion: 4,
+            comentario: "Buen servicio"
+        })

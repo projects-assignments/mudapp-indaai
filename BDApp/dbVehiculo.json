@@ -1,0 +1,13 @@
+[{
+    "_id":"10",
+    "Tipo":"coche",
+    "Capacidad":"100L"
+},{
+    "_id":"11",
+    "Tipo":"camion",
+    "Capacidad":"600L"
+},{
+    "_id":"12",
+    "Tipo":"scooter",
+    "Capacidad":"30L"
+}]

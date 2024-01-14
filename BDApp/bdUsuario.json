@@ -1,0 +1,19 @@
+[{
+    "_id":"1",
+    "Nombre":"Aitor",
+    "DNI":"2343243A",
+    "Pago":[false,true],
+    "Direccion":"C/ElmStreet"
+},{
+    "_id":"2",
+    "Nombre":"Daniela",
+    "DNI":"454343A",
+    "Pago":[false,true],
+    "Direccion":"Rmb/Catalunya"
+},{
+    "_id":"3",
+    "Nombre":"Inno",
+    "DNI":"455533B",
+    "Pago":[false,true],
+    "Direccion":"C/Valdeku"
+}]
