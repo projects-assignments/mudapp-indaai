@@ -28,11 +28,20 @@ async function run() {
 run().catch(console.dir);
 
 async function busqueda(client, busqueda) {
-    const result = await client.db("miapp").collection("users").find(busqueda).toArray();
+    const result = await client.db("miapp").collection("Usuario").find([busqueda]).toArray();
     console.log(result);
   }
-  
+  async function addCliente(client, add) {
+    const result = await client.db("miapp").collection("Usuario").insertOne(add);
+    console.log(result);
+  }
+  // addCliente(client,{
+  //   _id: "14",
+  //   nombre: "Ricardo",
+  //   DNI:"4323432A"
+  // })
+
   busqueda(client, {
-    name: "pedro"
+    _id: "2"
   });
   

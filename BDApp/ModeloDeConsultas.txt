@@ -2,7 +2,10 @@ Obtener información de un usuario por DNI:
 
 
         db.usuarios.find({ dni: "12345678" })
-        Obtener información de vehículos por tipo (Camion, Moto, Coche):
+
+
+Obtener información de vehículos por tipo (Camion, Moto, Coche):
+
 
         db.vehiculos.find({ tipo: "Camion" })
 
