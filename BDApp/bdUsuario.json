@@ -16,4 +16,22 @@
     "DNI":"455533B",
     "Pago":[false,true],
     "Direccion":"C/Valdeku"
+},{
+    "_id":"54331",
+    "Nombre":"Ricardo",
+    "DNI":"2343243A",
+    "Pago":[false,true],
+    "Direccion":"C/ElmStreet"
+},{
+    "_id":"253",
+    "Nombre":"Poncho",
+    "DNI":"454343A",
+    "Pago":[false,true],
+    "Direccion":"Rmb/Catalunya"
+},{
+    "_id":"3345",
+    "Nombre":"Poncha",
+    "DNI":"455533B",
+    "Pago":[false,true],
+    "Direccion":"C/Valdeku"
 }]

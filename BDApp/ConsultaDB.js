@@ -1,7 +1,7 @@
 
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const uri = "mongodb+srv://user1:pass1@cluster0.ixmrdxw.mongodb.net/?retryWrites=true&w=majority";
-
+//////////// Conexion con DB /////////////////// 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
   serverApi: {
@@ -26,22 +26,45 @@ async function run() {
   }
 }
 run().catch(console.dir);
+/////////// Funciones !  ////////////
 
+                                    // BUSCAR
 async function busqueda(client, busqueda) {
-    const result = await client.db("miapp").collection("Usuario").find([busqueda]).toArray();
+    const result = await client.db("miapp").collection("Usuario").find(busqueda).toArray();
     console.log(result);
   }
+                                    // CREAR UN USUARIO
   async function addCliente(client, add) {
     const result = await client.db("miapp").collection("Usuario").insertOne(add);
     console.log(result);
   }
+                                     // CREAR MUCHOS USUARIOS
+  async function addClientes(client, add) {
+    const result = await client.db("miapp").collection("Usuario").insertMany(add);
+    console.log(result);
+  }
+
+
+
+
+  // busqueda(client, {
+  //   _id: "2"
+  // });
+  
   // addCliente(client,{
-  //   _id: "14",
-  //   nombre: "Ricardo",
+  //   _id: "134",
+  //   nombre: "Ricardo1",
   //   DNI:"4323432A"
   // })
 
-  busqueda(client, {
-    _id: "2"
-  });
+  addClientes(client,[{
+    _id: "134",
+    nombre: "Ricardo1",
+    DNI:"4323432A"
+  },{
+    _id: "145",
+    nombre: "Ricardo2",
+    DNI:"4323432A"
+  }])
+
   

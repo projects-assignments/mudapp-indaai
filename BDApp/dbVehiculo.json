@@ -10,4 +10,16 @@
     "_id":"12",
     "Tipo":"scooter",
     "Capacidad":"30L"
+},{
+    "_id":"10324",
+    "Tipo":"coche",
+    "Capacidad":"150L"
+},{
+    "_id":"11423",
+    "Tipo":"camion",
+    "Capacidad":"800L"
+},{
+    "_id":"123432",
+    "Tipo":"scooter",
+    "Capacidad":"20L"
 }]

@@ -15,4 +15,21 @@
     "Nombre":"Pablo",
     "DNI":"455423B",
     "Direccion":"C/Valdeku"
+},{
+    "_id":"74",
+    "Nombre":"Isabel",
+    "DNI":"2234er3243A",
+    
+    "Direccion":"C/Vinyes"
+},{
+    "_id":"38",
+    "Nombre":"Marc",
+    "DNI":"4542we43A",
+ 
+    "Direccion":"Rmb/Castell"
+},{
+    "_id":"97",
+    "Nombre":"Marina",
+    "DNI":"4554fe23B",
+    "Direccion":"C/Badajoz"
 }]
